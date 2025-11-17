@@ -19,21 +19,21 @@ export const projectsData = [
     },
     {
         id: 3,
-        name: 'AI Powered PMS',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
+        name: 'AI Powered PMS - ElevateHQ',
+        description: 'As a DevSecOps Engineer, I worked on securing and automating the deployment pipeline for ElevateHQ — a cloud-based Project  Management System. I implemented CI/CD automation for .NET and Angular services, applied secrets management via Azure Key Vault, and enforced RBAC with JWT for secure access control. I integrated SAST/DAST security workflows, containerized services using Docker, and established cloud monitoring and alerting with Prometheus and Grafana. Additionally, I enforced compliance controls with encryption, audit logging, and vulnerability scanning throughout the release lifecycle.',
+        tools: ['Azure DevOps', 'Docker', 'Kubernetes', 'SonarQube','Trivy', '.NET Core', 'Angular', 'SQL Server','Prometheus', 'Grafana', 'Elastic Stack'],
         code: '',
-        role: 'Full Stack Developer',
+        role: 'DevSecOps Engineer',
         demo: '',
     },
     {
         id: 4,
-        name: 'Screentym',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
+        name: 'ScreenTym - Digital Signage Platform',
+        description: "As a DevSecOps Engineer, I secured and automated deployments for ScreenTym — a digital signage platform built using React, Node.js, MongoDB, and Redis. I implemented secure CI/CD pipelines, integrated static code analysis, and enabled container-based deployments using Docker. I enforced RBAC authentication and secure key handling, configured centralized logging, and added monitoring for player health and content delivery. Additionally, I implemented vulnerability scanning and DevSecOps best practices to ensure reliable and secure content streaming across multiple screens.",
+        tools: ['GitLab CI/CD', 'Docker', 'Nginx', 'SonarQube','Trivy', 'Node.js', 'React', 'MongoDB','Redis', 'JWT', 'PM2', 'Netdata'],
         code: '',
         demo: '',
-        role: 'Full Stack Developer',
+        role: 'DevSecOps Engineer',
     }
 ];
 
