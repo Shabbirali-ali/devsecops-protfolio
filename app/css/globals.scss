@@ -1,0 +1,60 @@
+@use "tailwindcss";
+
+/* load google font via HTML is recommended; if you keep import, put it here AFTER @use */
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+/* reusable font class */
+.font-alexbrush {
+  font-family: 'Alex Brush', cursive;
+}
+
+/* in globals.css or a component-level <style jsx global> */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* optional: make grab cursor visible when hovering the scroller */
+.cursor-grabbing {
+  cursor: grabbing !important;
+}
+
+
+:root {
+  --foreground-rgb: rgb(211, 216, 232);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: #0d1224;
+}
+
+#sticky-card-1 {
+  --index: 1;
+}
+
+#sticky-card-2 {
+  --index: 2;
+}
+
+#sticky-card-3 {
+  --index: 3;
+}
+
+#sticky-card-4 {
+  --index: 4;
+}
+
+.sticky-card {
+  // padding-top: calc(var(--index) * 2.5rem);
+  top: calc(var(--index) * 4rem);
+}
