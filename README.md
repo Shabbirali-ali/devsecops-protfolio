@@ -1,11 +1,7 @@
-<p align="center" width="100%">
-    <img height="100" src="https://github.com/said7388/developer-portfolio/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c">
-</p>
-
-<h1 align="center">Developer Portfolio</h1>
+<h1 align="center">DevSecOps Portfolio</h1>
 
 <p align="center">
-  <strong>A modern, responsive, and customizable portfolio template for developers and freelancers</strong>
+  <strong>A modern, responsive, and customizable portfolio template for Devops, developers and freelancers</strong>
 </p>
 
 <p align="center">
@@ -39,7 +35,7 @@ A professional portfolio template built with **Next.js 16**, **React 19**, and *
 </p>
 
 <p align="center">
-  <a href="https://abusaid.netlify.app/" target="_blank">
+  <a href="https://shabbiralikhanusiya.dev/" target="_blank">
     <strong>🚀 View Live Demo</strong>
   </a>
 </p>
@@ -92,29 +88,6 @@ This portfolio leverages the latest Next.js 16 and React 19 capabilities:
 | 📝 **Blog**       | Latest articles from dev.to (auto-fetched)          |
 | 📧 **Contact**    | Get in touch form with email/Telegram integration   |
 
----
-
-## Table of Contents :scroll:
-
-- [Overview](#overview)
-- [Demo](#demo-movie_camera)
-- [Features](#features-sparkles)
-- [Sections](#sections-bookmark)
-- [Tech Stack](#tech-stack-computer)
-- [Installation](#installation-arrow_down)
-- [Getting Started](#getting-started-dart)
-- [Usage](#usage-joystick)
-- [Deployment](#deployment-rocket)
-- [Tutorials](#tutorials-wrench)
-  - [Gmail App Password Setup](#gmail-app-password-setup)
-  - [Create a Telegram Bot](#create-a-telegram-bot)
-  - [Fetching Blog from dev.to](#fetching-blog-from-devto)
-- [Packages Used](#packages-used-package)
-- [Contributing](#contributing-handshake)
-- [License](#license-page_with_curl)
-- [Support](#support-coffee)
-
----
 
 ## Tech Stack :computer:
 
@@ -162,8 +135,8 @@ pnpm --version  # or npm --version
 ### 1. Fork and Clone the Repository
 
 ```bash
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/developer-portfolio.git
-cd developer-portfolio
+git clone https://github.com/<YOUR_GITHUB_USERNAME>/devsecops-protfolio.git
+cd devsecops-protfolio
 ```
 
 ### 2. Install Dependencies
@@ -221,10 +194,10 @@ docker-compose down
 
 ```bash
 # Build the development image
-docker build -t developer-portfolio:dev -f Dockerfile.dev .
+docker build -t devsecops-protfolio:dev -f Dockerfile.dev .
 
 # Run the container
-docker run -p 3000:3000 --name portfolio-dev developer-portfolio:dev
+docker run -p 3000:3000 --name portfolio-dev devsecops-protfolio:dev
 
 # Stop and remove container
 docker stop portfolio-dev && docker rm portfolio-dev
@@ -234,10 +207,10 @@ docker stop portfolio-dev && docker rm portfolio-dev
 
 ```bash
 # Build the production image
-docker build -t developer-portfolio:prod -f Dockerfile.prod .
+docker build -t devsecops-protfolio:prod -f Dockerfile.prod .
 
 # Run the production container
-docker run -p 3000:3000 --name portfolio-prod developer-portfolio:prod
+docker run -p 3000:3000 --name portfolio-prod devsecops-protfolio:prod
 ```
 
 ---
@@ -325,51 +298,15 @@ profile: "/your-image-name.png"; // or .jpg, .webp
 
 ---
 
-## Deployment :rocket:
-
-### 🚀 Deploy to Vercel (Recommended)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/said7388/developer-portfolio)
-
-**Manual Deployment:**
-
-1. Sign up at [Vercel](https://vercel.com/)
-2. Import your GitHub repository
-3. Add environment variables in **Settings** → **Environment Variables**
-4. Deploy
-
-**Features:**
-
-- Native Next.js 16 support
-- Automatic deployments on push
-- Preview deployments for PRs
-- Edge runtime support
-- Global CDN and free SSL
-
----
-
-### 🌐 Deploy to Netlify
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/said7388/developer-portfolio)
-
-**Manual Deployment:**
-
-1. Sign up at [Netlify](https://www.netlify.com/)
-2. Import your GitHub repository
-3. Build command: `npm run build`
-4. Publish directory: `.next`
-5. Add environment variables in **Site Settings** → **Environment**
-
----
 
 ### 🐳 Deploy with Docker
 
 ```bash
 # Build production image
-docker build -t developer-portfolio:prod -f Dockerfile.prod .
+docker build -t devsecops-protfolio:prod -f Dockerfile.prod .
 
 # Run
-docker run -d -p 80:3000 --name portfolio developer-portfolio:prod
+docker run -d -p 80:3000 --name portfolio devsecops-protfolio:prod
 
 # Or use Docker Compose
 docker-compose -f docker-compose.prod.yml up -d
@@ -573,21 +510,5 @@ pnpm install
 
 ---
 
-## License :page_with_curl:
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
-
-## Support :coffee:
-
-- ⭐ [Star the repository](https://github.com/said7388/developer-portfolio/stargazers)
-- � [Report bugs](https://github.com/said7388/developer-portfolio/issues)
-- � [Suggest features](https://github.com/said7388/developer-portfolio/discussions)
-
----
-
-![GitHub stars](https://img.shields.io/github/stars/said7388/developer-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/said7388/developer-portfolio?style=social)
-![GitHub issues](https://img.shields.io/github/issues/said7388/developer-portfolio)
-![GitHub license](https://img.shields.io/github/license/said7388/developer-portfolio)
+## Project Refrence
+Project original repo - https://github.com/said7388/developer-portfolio
