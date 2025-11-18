@@ -500,15 +500,7 @@ pnpm install
 
 ---
 
-## Contributing :handshake:
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/AmazingFeature`
-3. Commit changes: `git commit -m 'Add some AmazingFeature'`
-4. Push to branch: `git push origin feature/AmazingFeature`
-5. Open a Pull Request
-
----
-
 ## Project Refrence
 Project original repo - https://github.com/said7388/developer-portfolio
+
+---
